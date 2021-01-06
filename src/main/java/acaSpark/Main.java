@@ -43,26 +43,5 @@ public class Main {
         sc.close();
     }
 
-//    public static void main(String[] args) {
-//        List<Double> inputData = new ArrayList<Double>();
-//        inputData.add(34.5);
-//        inputData.add(3.213);
-//        inputData.add(66.6);
-//        inputData.add(23.423);
-//        inputData.add(86.5);
-//
-//        Logger.getLogger("org.apache").setLevel(Level.WARN);
-//
-//        SparkConf conf = new SparkConf().setAppName("startingSpark").setMaster("local[*]");
-//        JavaSparkContext sc = new JavaSparkContext(conf);
-//
-//        JavaRDD<Double> myRDD = sc.parallelize(inputData);
-//
-//        Double result = myRDD.reduce((a, b) -> {return a+b;});
-//        System.out.println(result);
-//
-//        sc.close();
-//    }
-
 }
 
