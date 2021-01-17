@@ -1,4 +1,4 @@
-package acaSpark;
+package acaSpark.Section1;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -36,6 +36,8 @@ public class ScalaTuples {
         numWithItsTriple.foreach((a) -> {
             System.out.println(a._1 + ", " + a._2);
         });
+
+        sc.close();
     }
 
 }
